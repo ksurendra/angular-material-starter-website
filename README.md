@@ -56,12 +56,11 @@ Material design is one of the most used design systems and Angular team also has
 
       `<body class="mat-typography">`
 - `<project-root>/src/app`
-   - `<project-root>/src/app/angular-material.module.ts` includes all Material imports.
    - `<project-root>/src/app/app.routing.module.ts` primary routing module for the project. 
    - `<project-root>/src/app/app.component.html` primary entry html file that has all code for building the website.
    - `<project-root>/src/app/app.component.scss` empty.
    - `<project-root>/src/app/app.component.ts` primary component, also includes `MatSideNav`.
-   - `<project-root>/src/app/app.module.ts` primary module.
+   - `<project-root>/src/app/app.module.ts` primary module. Also incudes only required material components.
 
 # Build
 
